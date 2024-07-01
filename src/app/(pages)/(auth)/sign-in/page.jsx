@@ -9,11 +9,11 @@ export default function SignInPage() {
       <div className="w-full h-screen flex items-center justify-between bg-body">
         <div className="grid grid-cols-12 gap-5 w-full max-w-6xl mx-auto">
           <div className="h-full w-full col-span-12 md:col-span-6 md:flex items-center justify-center font-bold">
-            <div>
+            <div className="px-5">
               <h1 className="text-[30px] md:text-[40px] lg:text-[50px] text-center md:text-left">
                 Chat Book
               </h1>
-              <p className="open-sans-light text-center">
+              <p className="open-sans-light text-center md:text-left">
                 Connect people and chat for free. The chats are personal and end
                 to end encrypted.
               </p>

@@ -10,11 +10,11 @@ export default function SignUpPage() {
       <div className="w-full h-screen flex items-center justify-between bg-body">
         <div className="grid grid-cols-12 gap-5 w-full max-w-6xl mx-auto">
           <div className="h-full w-full col-span-12 md:col-span-6 md:flex items-center justify-center font-bold">
-            <div>
+            <div className="px-5">
               <h1 className="text-[30px] md:text-[40px] lg:text-[50px] text-center md:text-left">
                 Create a free account to start
               </h1>
-              <p className="open-sans-light text-center">
+              <p className="open-sans-light text-center md:text-left">
                 Connect people and chat for free. The chats are personal and end
                 to end encrypted.
               </p>
@@ -23,7 +23,7 @@ export default function SignUpPage() {
           <div className="col-span-12 md:col-span-6">
             <div className="w-[400px] h-auto bg-body/90 p-10 rounded-lg shadow-md flex flex-col items-center justify-center">
               <Image width={120} height={100} src="/user.png" alt="image" className="mb-5" />
-              <h1 className="text-2xl font-bold text-center">
+              <h1 className="text-lg font-bold text-center">
                 Sign in to Start Chat
               </h1>
 

@@ -11,17 +11,17 @@ export default function VerifyOTPPage() {
       <div className="w-full h-screen flex items-center justify-between bg-body">
         <div className="grid grid-cols-12 gap-5 w-full max-w-6xl mx-auto">
           <div className="h-full w-full col-span-12 md:col-span-6 md:flex items-center justify-center font-bold">
-            <div>
+            <div className="px-5">
               <h1 className="text-[30px] md:text-[40px] lg:text-[50px] text-center md:text-left">
                 Verify Your OTP
               </h1>
-              <p className="open-sans-light text-center">Enter the OTP Sent to Email.</p>
+              <p className="open-sans-light text-center md:text-left">Enter the OTP Sent to Email.</p>
             </div>
           </div>
           <div className="col-span-12 md:col-span-6">
             <div className="w-[400px] h-auto bg-body/90 p-10 rounded-lg shadow-md flex flex-col items-center justify-center">
               <p className="text-[100px]"><RiDeviceRecoverFill /></p>
-              <h1 className="text-2xl font-bold text-center my-4">
+              <h1 className="text-lg font-bold text-center my-4">
                 Verify OTP
               </h1>
 
