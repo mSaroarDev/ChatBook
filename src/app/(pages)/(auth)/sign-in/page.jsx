@@ -7,7 +7,7 @@ export default function SignInPage() {
   return (
     <>
       <div className="w-full h-screen flex items-center justify-between bg-body">
-        <div className="grid grid-cols-12 gap-10 w-full max-w-6xl mx-auto">
+        <div className="grid grid-cols-12 gap-5 w-full max-w-6xl mx-auto">
           <div className="h-full w-full col-span-12 md:col-span-6 md:flex items-center justify-center font-bold">
             <div>
               <h1 className="text-[30px] md:text-[40px] lg:text-[50px] text-center md:text-left">
