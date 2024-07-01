@@ -4,7 +4,7 @@ import ChatContacts from "./Contacts";
 export default function Sidebar() {
   return (
     <>
-      <div className="fixed top-0 bottom-0 left-0 w-[380px]">
+      <div className="fixed top-0 bottom-0 left-0 w-full lg:w-[380px]">
         <div className="w-full h-dvh pt-20">
           <div className="p-3 lg:p-5 h-full">
             <div className="bg-white rounded-xl h-full relative">
